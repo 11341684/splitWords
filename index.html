@@ -28,7 +28,7 @@
     document.getElementById('address').value=localStorage.getItem("cityValue")||'';
     GIS=GIS.index;
     GIS.setStopLevel(4);
-    GIS.setLibrary(tdata);
+    GIS.setLibrary(data);
     function sub() {
         var val=document.getElementById('address').value;
         if(!val)return false;
