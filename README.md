@@ -16,4 +16,4 @@
     new GIS('中国上海').start().then(function(data){
         console.log(data)
     })
-[演示地址](https://11341684.github.io/splitWords/dist/GIS.html)
+[演示地址](https://11341684.github.io/splitWords/index.html)
