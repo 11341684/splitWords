@@ -1,5 +1,5 @@
 /*eslint-disable*/
-export default {
+var data= {
     "0":{
         "86":"中国"
     },
