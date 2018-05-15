@@ -13,4 +13,7 @@
     GIS=GIS.index; //
     GIS.setStopLevel(4);  //设置最大解析深度
     GIS.setLibrary(data); //设置对照表
+    new GIS('中国上海').start().then(function(data){
+        console.log(data)
+    })
 [演示地址](https://11341684.github.io/splitWords/dist/GIS.html)
