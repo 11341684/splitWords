@@ -1,0 +1,93 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>React Webpack Template Title</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <style>
+        html, body {
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            padding: 0
+        }
+        #str,#num{
+            line-height: 30px;
+            border-radius: 8px;
+            outline: none;
+            border: 1px solid #37B5FF;
+            background-color: #efefef;
+            text-align: center;
+        }
+        #str{
+            width: 350px;
+        }
+        #num{
+            width: 50px;
+        }
+        #num+span{
+            line-height: 30px;
+            padding: 0 6px;
+        }
+        #pro {
+            line-height: 30px;
+            outline: none;
+            border: 1px solid #37B5FF;
+            color: #fff;
+            border-radius: 4px;
+            background-color: #37B5FF;
+        }
+
+        #showBars div {
+            display: inline-block;
+            width: 40px;
+            height: 40px;
+            background-color: #f00;
+            line-height: 40px;
+            text-align: center;
+            border-radius: 50%;
+            margin: 3px;
+            color: #fff;
+            font-weight: bold;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        table tr {
+        }
+
+        table tr td {
+            padding: 4px 8px;
+            border: 1px solid #000;
+            height: 40px;
+            text-align: center;
+            vertical-align: middle;
+        }
+
+        table tr {
+            background-color: #fff
+        }
+
+        table tr:nth-child(odd) {
+            background-color: #fff
+        }
+    </style>
+</head>
+<body>
+<div id="app" style="overflow: hidden">
+    <h2 style="text-align: center">地址解析器</h2>
+    <textarea id="data" style="width: 500px;height: 600px;position: absolute;left: 30px;top: 100px"></textarea>
+    <input type="file" id="xlsx" style="position: absolute;left: 50%;margin-left: -60px;top: 360px;line-height: 30px;width: 120px">
+    <button id="submit" style="position: absolute;left: 50%;margin-left: -60px;top: 400px;line-height: 30px;width: 120px">生成</button>
+    <p id="time" style="position: absolute;left: 50%;margin-left: -60px;top: 450px;line-height: 30px;width: 120px;text-align: center">耗时：</p>
+    <textarea id="result" style="width: 500px;height: 600px;position: absolute;right: 30px;top: 100px"></textarea>
+</div>
+<script>__REACT_DEVTOOLS_GLOBAL_HOOK__ = parent.__REACT_DEVTOOLS_GLOBAL_HOOK__</script>
+<script type="text/javascript" src="/assets/GIS.js"></script>
+</body>
+</html>
