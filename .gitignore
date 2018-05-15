@@ -1,0 +1,9 @@
+/vendor
+/node_modules
+Homestead.yaml
+Homestead.json
+.env
+/resources/.idea
+/.idea
+.project
+/dist/unpackage/release
