@@ -246,8 +246,6 @@ class CityModel{
         this.matchedText=matchText;
         if(noMatch){
             matchToText=null;
-        }else if(/^(路|大道)/.test(matchText)||/(路)$/.test(matchToText)){
-            matchText=matchToText+matchText;
         }
         if(fullInfo){
             let {code,value}=fullInfo;
